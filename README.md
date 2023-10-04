@@ -1,9 +1,9 @@
 # DigitalSignatureAlgorithm
-Please implement the key generation, signing and verification algorithms of the digital signature algorithm (DSA) scheme either in C using GMP, Java using BigInteger or Python using gmpy library
-for a 128-bit security level. In your computation, you treat the output of SHA256 as a 256-bit integer. The large primes p, q and g are provided in the parameters section (in the last page).
-For convenience, these three algorithms are described below. You are prohibited to use any DSA code available on Internet or other sources, and DSA APIs available in your programming language libraries.
+Please implement the key generation, signing, and verification algorithms of the digital signature algorithm (DSA) scheme either in C using GMP, Java using BigInteger, or Python using the gmpy library
+for a 128-bit security level. In your computation, you treat the output of SHA256 as a 256-bit integer. The large primes p, q, and g are provided in the parameters section (in the last page).
+For convenience, these three algorithms are described below. You are prohibited from using any DSA code available on the Internet or other sources and DSA APIs available in your programming language libraries
+![007](https://github.com/srana0/DigitalSignatureAlgorithm/assets/93364397/e2d8082b-fded-4160-b28a-202ddaf03d9b)
 
-![006](https://github.com/srana0/DigitalSignatureAlgorithm/assets/93364397/c96990b8-ff6e-45e2-ba2f-7e9b1523167b)
 
 # Sample I/O:
 Signing:
@@ -20,3 +20,11 @@ Verification:
 * Printing u2 =
 * Printing v =
 * Verification result:
+
+# Parameters
+* p:= 50702342087986984684596540672785294493370824085308498450535565701730450879745310594069460940052367603038103747343106687981163754506284021184158903198888031001641800021787453760919626851704381009545624331468658731255109995186698602388616345118779571212089090418972317301933821327897539692633740906524461904910061687459642285855052275274576089050579224477511686171168825003847462222895619169935317974865296291598100558751976216418469984937110507061979400971905781410388336458908816885758419125375047408388601985300884500733923194700051030733653434466714943605845143519933901592158295809020513235827728686129856549511535000228593790299010401739984240789015389649972633253273119008010971111107028536093543116304613269438082468960788836139999390141570158208410234733780007345264440946888072018632119778442194822690635460883177965078378404035306423001560546174260935441728479454887884057082481520089810271912227350884752023760663
+
+
+* q:= 63762351364972653564641699529205510489263266834182771617563631363277932854227
+
+* g:= 2
