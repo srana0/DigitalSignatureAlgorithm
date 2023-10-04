@@ -7,16 +7,16 @@ For convenience, these three algorithms are described below. You are prohibited 
 
 # Sample I/O:
 Signing:
-DSA signing key x =
-DSA verification key vk = (y, h, p, q) =
+* DSA signing key x =
+* DSA verification key vk = (y, h, p, q) =
 
 Signing:
-Message to be signed m =
-Signature σ = (r, s) =
+* Message to be signed m =
+* Signature σ = (r, s) =
 
 Verification:
-Printing w =
-Printing u1 =
-Printing u2 =
-Printing v =
-Verification result:
+* Printing w =
+* Printing u1 =
+* Printing u2 =
+* Printing v =
+* Verification result:
